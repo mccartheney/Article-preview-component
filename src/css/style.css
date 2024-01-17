@@ -68,6 +68,10 @@ main {
     padding: 10% 7% 5% 7%;
 }
 
+.behind {
+    display: none;
+}
+
 .main_share_image {
     width: 15%;
     margin-right: 15px;
@@ -104,4 +108,25 @@ main {
 
 .main_share_person {
     display: flex;
+}
+
+.front {
+    display: none;
+    top: 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 7% 5% 7%;
+    margin-top: 5%;
+    background-color: var(--Very-Dark-Grayish-Blue);
+}
+
+.front .main_share_textContent {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+}
+
+.front .main_share_textContent img{
+    width: 25px;
 }
