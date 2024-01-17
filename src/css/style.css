@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
 
+:root {
+    --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+    --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+    --Grayish-Blue: hsl(212, 23%, 69%);
+    --Light-Grayish-Blue: hsl(210, 46%, 95%);
+}
+
 h1 {
-    font-family: 'Manrope', sans-serif;
     font-weight: 700;
 }
 
@@ -10,3 +16,92 @@ h2 {
     font-weight: 500;
 }
 
+body {
+    font-family: 'Manrope', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Grayish-Blue);
+}
+
+main {
+    background-color: var(--Light-Grayish-Blue);
+    width: 80%;
+}
+
+.main_image {
+    width: 100%;
+}
+
+.main_image-img {
+    width: 100%;
+}
+
+.main_textContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10% 7% 0% 7%;
+}
+
+.main_textContent-h1 {
+    width: 100%;
+    line-height: 20px;
+    color: var(--Very-Dark-Grayish-Blue);
+    margin-bottom: 10px;
+}
+
+.main_textContent-p {
+    width: 100%;
+    color: var(--Desaturated-Dark-Blue);
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.main_share .behind{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10% 7% 5% 7%;
+}
+
+.main_share_image {
+    width: 15%;
+    margin-right: 15px;
+}
+
+.main_share_image-img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.main_share_textContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.main_share_textContent-h2 {
+    font-size: 14px;
+    color: var(--Very-Dark-Grayish-Blue);
+}
+
+.main_share_textContent-p {
+    font-size: 14px;
+    color: var(--Desaturated-Dark-Blue);
+}
+
+.main_share_share_share-button {
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--Grayish-Blue);
+}
+
+.main_share_person {
+    display: flex;
+}
