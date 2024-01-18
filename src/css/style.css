@@ -7,3 +7,112 @@
     --Light-Grayish-Blue: hsl(210, 46%, 95%);
 }
 
+
+
+body {
+    font-family: 'Manrope', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--Light-Grayish-Blue);
+}
+
+@media (max-width : 1023px) {
+    .mobile {
+            display: inline;
+        }
+    
+    .desktop {
+        display: none;
+    }
+
+    main {
+        width: 80vw;
+        background-color: white;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    } 
+
+    .main_image {
+        width: 100%;
+    }
+    
+    .main_image-img {
+        width: 100%;
+    }
+
+    .main_textContent {
+        margin-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .main_textContent-h1 {
+        margin-bottom: 10px;
+        line-height: 25px;
+        font-weight: 700;
+        color: var(--Very-Dark-Grayish-Blue);
+    }
+    
+    .main_textContent-p {
+        color: var(--Grayish-Blue);
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .main_share {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .main_share_image {
+        width: 40px;
+        margin-right: 15px;
+    }
+
+    .main_share_image-img{
+        border-radius: 50%;
+        width: 100%;
+    }
+
+    .main_share_person {
+        display: flex;
+    }
+
+    .main_share_textContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-size: 13px;
+    }
+
+    .main_share_textContent-h2 {
+        color: var(--Very-Dark-Grayish-Blue);
+        font-weight: 700;
+    }
+
+    .main_share_textContent-p {
+        color: var(--Grayish-Blue);
+    }
+
+    .main_share_share_share {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+    }
+
+    .main_share_share_share-button {
+        height: 30px;
+        width: 30px;
+        border: none;
+        border-radius: 50%;
+    }
+
+    @media (min-width : 400px){
+        main {
+            width: 320px;
+        }
+    }
+}
