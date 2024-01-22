@@ -117,6 +117,7 @@ body {
         border: none;
         border-radius: 50%;
         background-color: var(--Desaturated-Dark-Blue);
+        cursor: pointer;
     }
 
     .main_share_popUp-button img {
