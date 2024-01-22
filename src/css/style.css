@@ -154,6 +154,7 @@ body {
     }
 
     .main_share_share_share {
+        position: relative;
         cursor: pointer;
         display: flex;
         align-items: center;

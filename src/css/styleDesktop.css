@@ -89,6 +89,7 @@
         align-items: center;
         width: 30px;
         height: 30px;
+        position: relative;
     }
     
     .main_share_share_share-button {
@@ -114,4 +115,59 @@
         width: 80%;
     }
 
+    .popUpPC {
+        position: absolute;
+        width: 250px;
+        height: 40px;
+        top: -70px;
+        background-color: var(--Very-Dark-Grayish-Blue);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    .popUpPC .popContent {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .popUpPC h2 {
+        margin: 10px;
+        color: var(--Grayish-Blue);
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .popUpPC img {
+        margin: 10px;
+        z-index: 2;
+    }
+
+    .square {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        bottom: -10px;
+        z-index: 1;
+        transform: rotate(45deg);
+        background-color: var(--Very-Dark-Grayish-Blue);
+    }
+
+    .active {
+        border: none;
+        border-radius: 50%;
+        background-color: var(--Desaturated-Dark-Blue);
+    }
+
+    .active img {
+        filter: brightness(0) invert(1);
+    }
 }
