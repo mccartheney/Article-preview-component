@@ -81,7 +81,7 @@ body {
         height: 100%;
         margin-top: 20px;
         margin-left: -20px;
-        display: flex;
+        display: none;
         justify-content: space-between;
         align-items: center;
         border-bottom-left-radius: 10px;
